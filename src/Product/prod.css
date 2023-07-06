@@ -1,0 +1,32 @@
+.allproducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border: none;
+}
+.allproducts div{
+    width:75%;
+    background-color: #e9cdcd;
+    margin-left: 12%;
+
+}
+.allproducts img{
+    width: 50%;
+    height: 50%;
+}
+.singlep{
+    border: 1px solid #000;
+    border-radius: 15px;
+    border-color: #000;
+    background-color: #f2f2f2;
+    padding:18px;
+}
+
+
+
+.productprice {
+    color: #d48787;
+}
+.productdiscount{
+    color: #52918d;
+}
