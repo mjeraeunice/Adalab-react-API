@@ -2,13 +2,13 @@
 import './App.css';
 import Products from './Product';
 import Login from './Login';
-import NavigationPage from './NavigationPage';
+import Navigation from './Navigation';
 import { BrowserRouter,Routes,Route,} from 'react-router-dom';
 import ProductDetails from './ProductDetails';
 function App() {
   return (
     <div>
-      <NavigationPage/>
+      <Navigation/>
       <BrowserRouter>
       <Routes>
         <Route index element={<Login/>}/>

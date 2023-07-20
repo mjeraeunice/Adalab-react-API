@@ -1,0 +1,25 @@
+.nav{
+    margin-top: 20%;
+    padding-left: 10px;
+    border-radius: none;
+    radius: 5px;
+}
+ul{
+    border-radius: none;
+    padding-left: 10px;
+    margin-left: 20%;
+}
+ul {
+    margin-left: 10%;
+    border-radius: none;
+    padding: 10px;
+}
+ul  a{
+    margin-left: 10%;
+    padding-left: 10px;
+    border-radius: none;
+    radius:5px;
+    font-size: 18px;
+    margin-bottom: 10%;
+    padding-bottom: 20px;
+}
